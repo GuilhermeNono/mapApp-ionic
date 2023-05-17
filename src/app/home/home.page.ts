@@ -21,7 +21,7 @@ export class HomePage {
 
   async createMap() {
     this.newMap = await GoogleMap.create({
-      id: 'my-cool-map',
+      id: 'my-map',
       element: this.mapRef.nativeElement,
       apiKey: environment.mapsKey,
       config: {
@@ -29,7 +29,8 @@ export class HomePage {
           lat: 33.6,
           lng: -117.9,
         },
-        zoom: 8,
+        zoom: 1
+        ,
       },
     });
   }

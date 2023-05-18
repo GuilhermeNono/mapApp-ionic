@@ -1,0 +1,29 @@
+instalar o @capacitor/google-maps e dar o comando ionic cap syn
+
+instalar o @capacitor/geolocation e dar o comando ionic cap syn
+
+adicionar o css do mapa: <capacitor-google-map #map></capacitor-google-map>
+
+adicionar o componenete do mapa no html da pagina
+
+adicionar a chave no enviroment
+
+adicionar schemas no ngmodule do home.module.ts
+
+
+        home.page.ts
+
+fazer as importações
+
+criar as variaveis
+
+criar o metodo para gerar o mapa
+
+criar metodos para:
+                buscar posição atual
+                Adicionar marcador no mapa
+                dar zoom no marcador
+
+
+
+
